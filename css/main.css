@@ -64,7 +64,6 @@ html {
 @media (prefers-reduced-motion) {
   img {
     animation: none;
-  }
 }
 /* stylelint-disable media-feature-name-no-unknown */
 
