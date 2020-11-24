@@ -62,8 +62,23 @@ html {
 }
 
 @media (prefers-reduced-motion) {
+
   img {
     animation: none;
+  }
+
+}
+
+@media (prefers-color-scheme:dark) {
+
+  body {
+    background-color: #222;
+  }
+
+  .banner {
+    opacity: .5;
+  }
+
 }
 /* stylelint-disable media-feature-name-no-unknown */
 
